@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<link href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.2.1.js" ></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="row flex-row">
+				<div class="col-md-6">
+					<img class="img-responsive logo-img" src="img/Udacity-blue.png" alt="Udacity logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase header">
+					<h1>Haroon Wardak</h1>
+					<h4>Front-end Ninja</h4>
+				</div>
+			</div>
+		</header>	
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h1 id="wel-msg">Weclome to My Portfolio</h1>
+				<img class="img-responsive main-img" src="img/bg.jpg" alt="main image">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Featured Works</h2>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img class="img-responsive projects-img-size" src="img/lion.jpg" alt="Lion" data-toggle="modal" data-target="#animal-modal">
+				<h4 class="text-uppercase">Animal Trading Card</h4>
+				<p><a href="https://github.com/H-Wardak/animal-trading-card" target="_blank">Link to the project</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive projects-img-size" src="http://i1.wp.com/blog.udacity.com/wp-content/uploads/2016/01/Slack-for-iOS-Upload.jpg?zoom=2&resize=320%2C168" alt="Web Developer" data-toggle="modal" data-target="#web-deve-modal">
+				<h4 class="text-uppercase">Web Developer</h4>
+				<p><a href="https://github.com/H-Wardak/web-developer" target="_blank">Link to the project</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive projects-img-size" src="img/profile-img.png" alt="Profile-img" data-toggle="modal" data-target="#profile-modal">
+				<h4 class="text-uppercase">Resume</h4>
+				<p><a href="https://github.com/H-Wardak/my-resume" target="_blank">Link to the project</a></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+		<footer>
+			<div class="row flex-row">
+				<div class="col-md-5">
+					<p>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer">
+							<img id="css-validator" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+						</a>
+					</p>
+				</div>
+				<div class="col-md-7">
+					<p>@2017 All rights reserved</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!--Animal Card Trading modal-->
+	<div class="modal fade" id="animal-modal" tabindex="-1" role="dialog" aria-labelledby="animal-title" aire-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="animal-title">Animal Trading Card</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive center-block" src="img/lion.jpg" alt="Lion">
+					<p>The Lion is the king of the forest, the hair around it's neck serves as a crown of Lion. Lions (Panthera leo), one of the five big cats belonging to the Panthera genus and a member of the Felidae family, have important significance in several cultures.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>			
+		</div>
+	</div><!--end of Animal Card Trading modal-->
+	<!--Web Dev modal-->
+	<div class="modal fade" id="web-deve-modal" tabindex="-1" role="dialog" aria-labelledby="web-deve-title" aire-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="web-deve-title">Web Developer</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive center-block" src="http://i1.wp.com/blog.udacity.com/wp-content/uploads/2016/01/Slack-for-iOS-Upload.jpg?zoom=2&resize=320%2C168" alt="Web Developer">
+					<p>There is a simple reason why Web Developer is such a hot job right now. Put simply, what Web Developers do is create how we experience … the web. If you proceed from the notion that every person who engages with the web would prefer a great experience, then you can say that everyone who engages with the web would prefer that a Web Developer have done a great job. Companies of course know this, so they hire Web Developers to ensure their sites provide great experiences. So, lots of websites and lots of users means lots of demand. LOTS of demand. 🔥</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>			
+		</div>
+	</div><!--end of Web Dev modal-->
+	<!--Animal Card Trading modal-->
+	<div class="modal fade" id="profile-modal" tabindex="-1" role="dialog" aria-labelledby="profile-title" aire-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="profile-title">My Resume</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive center-block" src="img/profile-img.png" alt="Profile-img">
+					<p>Next Project</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>			
+		</div>
+	</div><!--end of Animal Card Trading modal-->
+</body>
+</html>

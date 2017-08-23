@@ -1,0 +1,43 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.flex-row {
+	display: flex;
+}
+.logo-img {
+	margin-top: 15px;
+}
+
+.header {
+	color: #bcbbbb;
+	padding: 15px 15px 0px;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+.main-img {
+	position: relative;
+	opacity: 0.4;
+	width: 100%;
+	height: 350px;
+}
+
+#wel-msg {
+	font-weight: bold;
+	position: absolute;
+	margin: 19%;
+}
+
+.projects-img-size {
+	width: 555px;
+	height: 200px;
+}
+
+#css-validator {
+	border:0;
+	width:88px;
+	height:31px;
+}
