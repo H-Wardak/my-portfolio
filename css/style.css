@@ -32,7 +32,7 @@ h1 {
 
 .projects-img-size {
 	width: 555px;
-	height: 200px;
+	height: auto;
 }
 
 #css-validator {
