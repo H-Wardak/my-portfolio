@@ -31,8 +31,8 @@ h1 {
 }
 
 .projects-img-size {
-	max-width: 555px;
-	max-height: 200px;
+	width: 555px;
+	height: 200px;
 }
 
 #css-validator {
